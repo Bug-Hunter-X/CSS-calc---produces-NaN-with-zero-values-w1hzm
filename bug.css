@@ -1,0 +1,1 @@
+The CSS property `calc()` might unexpectedly produce `NaN` (Not a Number) if used with a unitless value that's evaluated as zero, such as `calc(0 * 10px)`.  This is because CSS `calc()` treats zero differently depending on whether it's explicitly a number or a result of an operation.
